@@ -10,12 +10,12 @@
     
     
     body {
-        background-image: url('Kotisivun kuvat/Taustakuva_keskikokoinen.jpg');
+        background-image: url('Taustakuva_keskikokoinen.jpg' /);
         background-size: cover; 
         background-repeat: no-repeat;
         background-attachment: fixed;
         display: flex;
-        flex-direction:column;
+        flex-direction: column;
         min-height: 100vh;
     }
     
