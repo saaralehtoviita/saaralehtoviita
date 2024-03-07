@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    html,body {
+        margin:0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+    }
+
+    
+    
+    body {
+        background-image: url('Kotisivun kuvat/Taustakuva_keskikokoinen.jpg');
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction:column;
+        min-height: 100vh;
+    }
+    
+.topnav {
+            background-color: #7BB0E3;
+            height: 50px;
+            text-align: center; 
+            font-size: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            
+          }
+
+    .topnav a {
+        display: inline-block;
+        color: #65503F;
+        text-decoration: none;
+        padding: 15px 20px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+    }
+
+    /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgba(192, 192, 192, 0.6);
+    color: #65503F;
+    border-radius: 10px;
+  }
+
+    header {
+        
+        margin-top: 30px;
+        text-align: center;
+        font-size: 30px;
+        color: #65503F;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+
+    section {
+        text-align: center;
+        font-size: 22px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 50px;
+        color: #65503F;
+        background-color: rgba(192, 192, 192, 0.6);
+        border-radius: 10px;
+        padding: 5px;
+       
+        
+    }
+
+    section a {
+        text-decoration: none;
+        color: white;
+    }
+
+   
+    footer {
+        background-color: #7BB0E3;
+        height: 30px;
+        text-align: center;
+        left: 0;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        padding-top: 10px;
+        margin-top: 100px;
+    }
+    
+    .p {
+        color: #65503F;
+        background-color: rgba(192, 192, 192, 0.6);
+        border-radius: 10px;
+        font-size: 25px;
+        padding: 20px;
+
+    }
+
+    img {
+        min-width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+
+      }
+
+      ul {
+        text-align: left;
+      }
+
+    @media only screen and (min-width: 600px) {
+
+      .topnav {
+        font-size: 25px;
+      }
+
+        section {
+          margin-left: 15%;
+          margin-right: 15%;
+            
+        }
+       
+      }
+
+    @media only screen and (min-width: 1025px) {
+        section {
+            margin-left: 20%;
+            margin-right: 20%;
+            font-size: 25px;
+        }    
+        .container {
+          margin-left: 5%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        img {
+          border-radius: 10px;
+          flex-basis: 40%
+
+        }
+
+        .text {
+          min-width: 50%;
+          
+        }
+        }
