@@ -155,4 +155,19 @@
           min-width: 50%;
           
         }
+    
+        @media only screen and (max-width: 600px) {
+          .topnav {
+            font-size: 18px; /* Adjust the font size for smaller screens */
+          }
+        
+          header {
+            font-size: 30px; /* Adjust the font size for smaller screens */
+          }
+        
+          section {
+            font-size: 22px; /* Adjust the font size for smaller screens */
+            margin-left: 5%;
+            margin-right: 5%;
+          }
         }
