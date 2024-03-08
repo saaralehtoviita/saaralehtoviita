@@ -10,7 +10,7 @@
     
     
     body {
-        background-image: url("TaustakuvaKeskikokoinen.JPG");
+        background-image: url("./TaustakuvaKeskikokoinen.JPG");
         background-size: cover; 
         background-repeat: no-repeat;
         background-attachment: fixed;
