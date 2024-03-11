@@ -160,6 +160,10 @@
           .topnav {
             font-size: 18px; /* Adjust the font size for smaller screens */
           }
+
+          .topnav a {
+            padding: 5px 10px;
+          }
         
           header {
             font-size: 30px; /* Adjust the font size for smaller screens */
