@@ -159,6 +159,7 @@
         @media only screen and (max-width: 600px) {
           .topnav {
             font-size: 18px; /* Adjust the font size for smaller screens */
+            height: 70px;
           }
 
           .topnav a {
